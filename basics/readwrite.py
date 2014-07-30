@@ -15,7 +15,7 @@ writer.append({
 writer.append({
     "username": "spicy",
     "eid": "test_eid",
-    "email": "sp[icy@adroll.com",
+    "email": "spicy@adroll.com",
     "first_name": "Spicy",
     "last_name": "McHaggis"
 })
