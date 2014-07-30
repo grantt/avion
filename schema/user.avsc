@@ -1,5 +1,5 @@
 {
-    "namespace": "avion.db.model",
+    "namespace": "avion.schema.user",
     "type": "record",
     "doc": "This Schema describes the User object",
     "name": "User",

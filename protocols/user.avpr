@@ -1,0 +1,47 @@
+{
+    "namespace": "avion.protocol.user",
+    "protocol": "User",
+    "doc": "Interactions with the user model",
+    "types": [
+        {
+            "name": "User",
+            "type": "record",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "string"
+                },
+                {
+                    "name": "eid",
+                    "type": "string"
+                },
+                {
+                    "name": "email",
+                    "type": "string"
+                },
+                {
+                    "name": "first_name",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "last_name",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            ]
+        }
+    ],
+    "messages": {
+        "get": {
+            "doc": "Get a user",
+            "request": [{"name": "eid", "type": "User" }],
+            "response": "User"
+        }
+    }
+
+}

@@ -1,0 +1,20 @@
+{
+    "namespace": "avion.schema.organization",
+    "type": "record",
+    "doc": "This Schema describes the Organization object",
+    "name": "Organization",
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "eid",
+            "type": "string"
+        },
+        {
+            "name": "created_date",
+            "type": "int"
+        }
+    ]
+}
